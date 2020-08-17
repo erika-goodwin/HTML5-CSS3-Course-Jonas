@@ -35,8 +35,8 @@ body{
     margin: 0 auto;
 }
 
-section{
-    margin: 80px 0;
+.section{
+    padding: 80px 0;
 }
 
 .box{
@@ -475,7 +475,9 @@ cite img{
     margin: 0 auto;
 }
 
-
+.form-line{
+    margin-top: 10px;
+}
 
 input[type=text],
 input[type=email],
