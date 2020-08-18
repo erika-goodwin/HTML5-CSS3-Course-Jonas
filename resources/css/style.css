@@ -1,4 +1,6 @@
- /* ------------------------------------*/
+/* -0px-480px-768px-1024-1200- */
+
+/* ------------------------------------*/
 /* BASIC SETUP */
 /* ------------------------------------*/
 *{
@@ -8,6 +10,7 @@
 }
 
 html,
+/*For responsible website */
 body{
     background-color: #fff;
     color: #676767;
@@ -15,6 +18,8 @@ body{
     font-weight: 100;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    /*For responsible website */
+    /*overflow: hidden;*/
 }
 
 .clearfix{zoom: 1}
