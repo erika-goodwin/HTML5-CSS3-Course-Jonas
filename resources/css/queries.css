@@ -85,9 +85,65 @@
     .col{
         width: 100%;
     }
+    /* Main navi */
+    .main-nav{
+        display: none;
+    }
+    
+    /* ----- HEADINGS ----- */
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    
+    /* ----- PARAGRAPHS ----- */
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* ------------------------------------*/
+    /* HOW IT WORKS */
+    /* ------------------------------------*/
+    
+    .steps-box:first-child{
+        text-align: center;
+    }
+    .app-screan{
+        width: 40%;
+    }
+    .work-step div{
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        margin-left: 15px;
+        font-size: 120%;
+    }
+    .works-setps{
+        margin-bottom: 20px;
+    }
+    .works-steps:last-of-type{
+        margin-bottom: 2 0px;
+    }
+    /* ------------------------------------*/
+    /* SIGN UP */
+    /* ------------------------------------*/
+    .plan-box{
+        margin: 3% auto;
+    }
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
     
+    section{
+        padding: 25px 0;
+    }
+    /* ------------------------------------*/
+    /* FORM */
+    /* ------------------------------------*/
+    .contact-form{
+        width: 100%
+    }
 }
