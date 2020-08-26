@@ -86,9 +86,14 @@
         width: 100%;
     }
     /* Main navi */
+    .nivuke-nac-icon{
+        display: inline-block;
+    }
+    /*---
     .main-nav{
         display: none;
     }
+    ---*/
     
     /* ----- HEADINGS ----- */
     h1{
