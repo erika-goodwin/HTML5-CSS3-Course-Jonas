@@ -109,4 +109,14 @@ $('document').ready(function () {
           offset: '-25%',
         }
       );
+    
+    
+    ////* MOBILE NAVIGATION */////    
+    $('js--nav-icon').click(function){
+        var nav = $('js--main-nav');
+        
+        nav.slideToggle(200/*mm/sec*/);  
+    }
+    
+    
 });

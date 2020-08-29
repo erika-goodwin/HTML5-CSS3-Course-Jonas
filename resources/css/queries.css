@@ -86,14 +86,46 @@
         width: 100%;
     }
     /* Main navi */
-    .nivuke-nac-icon{
+   .mobile-nav-icon{
         display: inline-block;
     }
-    /*---
     .main-nav{
-        display: none;
+        /* display: none; */
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
     }
-    ---*/
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+    
+
+    /* Sticky navi */
+    .sticky{
+
+    }
+
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 16px 0px;
+    }
+    .stcky .moble-nav-iconicon {
+        Margin-top: 10px;
+    }
+    .stcky .moble-nav-iconicon i{
+        color: #555;
+    }
+ 
     
     /* ----- HEADINGS ----- */
     h1{
