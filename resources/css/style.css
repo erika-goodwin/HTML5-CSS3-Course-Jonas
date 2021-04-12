@@ -289,10 +289,11 @@ header{
     cursor: pointer;
     display: none;
 }
+
 .mobile-nav-iconicon{
     font-size: 200%;
     color: #fff;
-}
+} 
 
 /* ------------------------------------*/
 /* FEAUTURES */

@@ -86,7 +86,10 @@
         width: 100%;
     }
     /* Main navi */
-   .mobile-nav-icon{
+    .mobile-nav{
+        display: none;
+    }
+    .mobile-nav-icon{
         display: inline-block;
     }
     .main-nav{
@@ -108,7 +111,7 @@
 
     /* Sticky navi */
     .sticky{
-
+        position: relative;
     }
 
     .sticky .main-nav{
